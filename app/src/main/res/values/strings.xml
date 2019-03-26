@@ -3,4 +3,9 @@
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
     <string name="sign_in_button_text">Sign In</string>
+    <string name="spooch_host">http://192.168.1.23:8000/api/v1/</string>
+    <string name="api_token">token</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="create_event_activity_label">Create Event</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

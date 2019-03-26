@@ -32,6 +32,6 @@ public class RegisterUserActivity extends AppCompatActivity {
         String uName = this.username.getText().toString();
         String pWord = this.password.getText().toString();
         String cpWord = this.confirmPassword.getText().toString();
-        new Register(this, uName, pWord, cpWord).execute();
+        new Register(this, uName, pWord, cpWord, getString(R.string.spooch_host)).execute();
     }
 }
